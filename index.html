@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ghoul</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <style>
+        body {
+            background-color: #212121;
+            font-size: 14px;
+            font-family: Arial, Helvetica, sans-serif;
+            color: #ffffff;
+        }
+
+        button {
+            border: none;
+            height: 30px;
+            border-radius: 5px;
+        }
+
+        input {
+            width: 100%;
+            height: 30px;
+            margin: 0 5px;
+            border: none;
+            background: transparent;
+            color: #ffffff;
+        }
+
+        input:focus {
+            outline: none;
+        }
+
+        a:link {
+            text-decoration: none;
+        }
+
+        a:visited {
+            color: #ffffff;
+            text-decoration: none;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+
+        .barra_busqueda {
+            width: 90%;
+            margin-top: 15px;
+            padding: 5px 10px;
+            display: flex;
+            justify-content: space-between;
+            border: 0.5px;
+            border-color: #ffffff80;
+            border-radius: 25px;
+            border-style: solid;
+        }
+
+        /* Clases */
+
+        .centrar {
+            width: 100%;
+            max-width: 700px;
+            margin: auto;
+            margin-top: 8rem;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .menu{
+            width: 100%;
+            display: flex;
+            justify-content: flex-end;
+        }
+        .menu-item{
+            margin: 5px 10px;
+            vertical-align: top; 
+        }
+        .icon{
+            display: grid;
+            align-content: center;
+            color: grey;
+        }
+
+        /* ID's */
+
+        #opciones-busqueda{
+            margin-top: 30px;
+            width: 270px;
+            display: flex;
+            justify-content: space-between;
+        }
+    </style>
+</head>
+
+<body>
+    <header class="menu">
+        <a href="" class="menu-item">Gmail</a>
+        <a href="" class="menu-item">Imágenes</a>
+        <div class="material-icons">
+            <span class="material-icons-outlined menu-item">apps</span>
+        </div>
+        <img src="./images/ghoul-perfil.png" alt="" height="30"
+        style="border-radius: 50px;" class="menu-item">
+    </header>
+    <main>
+        <div class="centrar">
+            <img src="./images/ghoul_logo.svg" alt="" height="190">
+            <div class="barra_busqueda">
+                <div class="material-icons icon">
+                    <span class="material-icons-outlined">
+                        search
+                    </span>
+                </div>
+                <input type="text" name="" id="">
+                <div class="material-icons icon">
+                    <span class="material-icons-outlined">
+                        mic
+                    </span>
+                </div>
+            </div>
+            <div id="opciones-busqueda">
+                <button>Buscar con Ghoul</button>
+                <button>Me siento sin suerte</button>
+            </div>
+            <p>Ofrecido por Ghoul en: <a href="">English</a></p>
+        </div>
+    </main>
+</body>
+
+</html>
