@@ -1,0 +1,101 @@
+        body {
+            background-color: #212121;
+            font-size: 14px;
+            font-family: Arial, Helvetica, sans-serif;
+            color: #ffffff;
+        }
+
+        button {
+            justify-content: center;
+            align-content: center;
+            background-color: #303030;
+            color: #ffffff;
+            border: none;
+            height: 30px;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        button:hover {
+            border: 1px solid #ffffff80;
+        }
+
+        input {
+            width: 100%;
+            height: 30px;
+            margin: 0 5px;
+            border: none;
+            background: transparent;
+            color: #ffffff;
+        }
+
+        input:focus {
+            outline: none;
+        }
+
+        a:link {
+            text-decoration: none;
+        }
+
+        a:visited {
+            color: #ffffff;
+            text-decoration: none;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+
+        .barra_busqueda {
+            width: 90%;
+            margin-top: 15px;
+            padding: 5px 10px;
+            display: flex;
+            justify-content: space-between;
+            border: 0.5px;
+            border-color: #ffffff80;
+            border-radius: 25px;
+            border-style: solid;
+        }
+
+        /* Clases */
+
+        .centrar {
+            width: 100%;
+            max-width: 700px;
+            margin: auto;
+            margin-top: 8rem;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .menu{
+            width: 100%;
+            display: flex;
+            justify-content: flex-end;
+        }
+        .menu-item{
+            margin: 5px 10px;
+            vertical-align: top; 
+        }
+        .pfp{
+            margin-top: 0px;
+        }
+        .icon{
+            display: grid;
+            align-content: center;
+            color: grey;
+        }
+
+        /* ID's */
+
+        #bottom-text{
+            color: #bdc1c6;
+        }
+        #opciones-busqueda{
+            margin-top: 30px;
+            width: 270px;
+            display: flex;
+            justify-content: space-between;
+        }
